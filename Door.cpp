@@ -78,7 +78,7 @@ void Door::interact()
 /**
  * Set the manual override flag off and change the LED state based on where the door is
  */
-void Door::autoCloseOn()
+void Door::autoOn()
 {
   _manualOverride = false;
   changeLEDState();

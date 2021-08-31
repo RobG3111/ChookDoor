@@ -24,7 +24,7 @@ class Door
     bool isOpenOrOpening();
     bool isClosedOrClosing();
     void changeLEDState();
-    void autoCloseOn();
+    void autoOn();
     
     
   private:
